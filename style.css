@@ -1,0 +1,86 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.container{
+  background-image: url(/background.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 80px 0 300px 0;
+}
+
+.box-container{
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 60%;
+  margin: 0 auto;
+  padding: 50px 200px;
+}
+
+.logo{
+  width: 250px;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+h2{
+  margin: auto;
+  color: rgb(29 255 29);
+  font-weight: bold;
+  text-align: center;
+  font-size: 35px;
+  margin-top: 10px;
+}
+
+.btm-container{
+  background-color: rgb(29 255 29);
+  padding: 8px;
+  text-align: center;
+}
+
+.single-selection{
+  margin: 30px auto;
+  color: white;
+  font-size: 20px;
+}
+
+.description img{
+  width: 15px;
+  vertical-align: bottom;
+}
+
+.progressbar{
+  background-color: yellow;
+  height: 25px;
+  border-radius: 4px;
+  width: 35%;
+}
+
+.description{
+  font-size: 15px;
+  margin: 5px;
+}
+
+.progress{
+  font-size: 15px;
+}
+
+.progressbar2{
+  background-color: rgb(29 255 29);
+  height: 25px;
+  border-radius: 4px;
+  width: 60%;
+}
+
+.progressbar3{
+  background-color: red;
+  height: 25px;
+  border-radius: 4px;
+  width: 15%;
+}
